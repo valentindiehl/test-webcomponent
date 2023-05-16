@@ -30,7 +30,7 @@
     "test:watch": "wtr --watch",
     "test:prod": "MODE=prod wtr",
     "test:prod:watch": "MODE=prod wtr --watch",
-    "checksize": "rollup -c ; cat my-element.bundled.js | gzip -9 | wc -c ; rm my-element.bundled.js"
+    "checksize": "rollup -c ; cat docs/my-element.bundled.js | gzip -9 | wc -c ; rm my-element.bundled.js"
   },
   "keywords": [
     "web-components",
@@ -61,7 +61,7 @@
     "lit-analyzer": "^1.2.1",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.73.0",
+    "rollup": "^2.79.1",
     "rollup-plugin-summary": "^1.4.3",
     "rollup-plugin-terser": "^7.0.2",
     "typescript": "~4.7.4"
